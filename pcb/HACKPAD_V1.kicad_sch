@@ -1576,6 +1576,10 @@
 		(uuid "67396ea8-1142-401d-ae03-c582ac6c2657")
 	)
 	(no_connect
+		(at 33.02 20.32)
+		(uuid "85302ace-2f7e-4dab-a0bb-1fb10a2ed07f")
+	)
+	(no_connect
 		(at 161.29 60.96)
 		(uuid "aaddce76-deaa-43d4-a1f3-a11a7d78beb8")
 	)
@@ -3777,7 +3781,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "076eb02b-dcd4-46e6-861d-0cfe58a62355")
-		(property "Reference" "R2_trigger1"
+		(property "Reference" "R2_TRIGGER"
 			(at 88.9 156.21 0)
 			(effects
 				(font
@@ -3829,7 +3833,7 @@
 		(instances
 			(project "DIY GAMEPAD(ESP32) WIRELESS"
 				(path "/29cb8219-b10d-47f3-b960-fd5b6212cd29"
-					(reference "R2_trigger1")
+					(reference "R2_TRIGGER")
 					(unit 1)
 				)
 			)
@@ -3844,7 +3848,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0b101f44-2b07-4cd1-aad0-c12fdc875bfe")
-		(property "Reference" "R12"
+		(property "Reference" "R13"
 			(at 58.166 182.118 90)
 			(effects
 				(font
@@ -3896,7 +3900,7 @@
 		(instances
 			(project "HACKPAD_V1"
 				(path "/29cb8219-b10d-47f3-b960-fd5b6212cd29"
-					(reference "R12")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -3912,7 +3916,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15562359-fb6f-4b2b-ab82-ce05569f2fa1")
-		(property "Reference" "B1"
+		(property "Reference" "B_BUTTON"
 			(at 88.9 105.41 0)
 			(effects
 				(font
@@ -3964,7 +3968,7 @@
 		(instances
 			(project "DIY GAMEPAD(ESP32) WIRELESS"
 				(path "/29cb8219-b10d-47f3-b960-fd5b6212cd29"
-					(reference "B1")
+					(reference "B_BUTTON")
 					(unit 1)
 				)
 			)
@@ -3979,7 +3983,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1dc18a32-cff8-4a30-9712-8d7a652f06b0")
-		(property "Reference" "R13"
+		(property "Reference" "R11"
 			(at 100.076 157.988 90)
 			(effects
 				(font
@@ -4031,7 +4035,7 @@
 		(instances
 			(project "DIY GAMEPAD(ESP32) WIRELESS"
 				(path "/29cb8219-b10d-47f3-b960-fd5b6212cd29"
-					(reference "R13")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -4047,7 +4051,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f6ac4c7-aa23-4dd8-9fda-26ec300ffec0")
-		(property "Reference" "L2"
+		(property "Reference" "L2_TRIGGER"
 			(at 44.45 156.21 0)
 			(effects
 				(font
@@ -4099,7 +4103,7 @@
 		(instances
 			(project "DIY GAMEPAD(ESP32) WIRELESS"
 				(path "/29cb8219-b10d-47f3-b960-fd5b6212cd29"
-					(reference "L2")
+					(reference "L2_TRIGGER")
 					(unit 1)
 				)
 			)
@@ -4115,7 +4119,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f803952-52a0-43a8-a1a0-78e0739c31c8")
-		(property "Reference" "R1_trigger1"
+		(property "Reference" "R1_TRIGGER"
 			(at 88.9 144.78 0)
 			(effects
 				(font
@@ -4167,7 +4171,7 @@
 		(instances
 			(project "DIY GAMEPAD(ESP32) WIRELESS"
 				(path "/29cb8219-b10d-47f3-b960-fd5b6212cd29"
-					(reference "R1_trigger1")
+					(reference "R1_TRIGGER")
 					(unit 1)
 				)
 			)
@@ -4250,7 +4254,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b26b239-bc3d-4ed1-b980-429d44461941")
-		(property "Reference" "Dpad_left1"
+		(property "Reference" "DPAD_LEFT"
 			(at 44.45 54.61 0)
 			(effects
 				(font
@@ -4302,7 +4306,7 @@
 		(instances
 			(project "DIY GAMEPAD(ESP32) WIRELESS"
 				(path "/29cb8219-b10d-47f3-b960-fd5b6212cd29"
-					(reference "Dpad_left1")
+					(reference "DPAD_LEFT")
 					(unit 1)
 				)
 			)
@@ -4318,7 +4322,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e9704cd-f621-4373-a58a-752f8e456bfc")
-		(property "Reference" "Menu_button1"
+		(property "Reference" "MENU_BUTTON"
 			(at 91.44 180.34 0)
 			(effects
 				(font
@@ -4370,7 +4374,7 @@
 		(instances
 			(project "HACKPAD_V1"
 				(path "/29cb8219-b10d-47f3-b960-fd5b6212cd29"
-					(reference "Menu_button1")
+					(reference "MENU_BUTTON")
 					(unit 1)
 				)
 			)
@@ -4520,7 +4524,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66b6929a-c889-44f1-9d36-f4d888e6d9b7")
-		(property "Reference" "Dpad_right1"
+		(property "Reference" "DPAD_RIGHT"
 			(at 88.9 54.61 0)
 			(effects
 				(font
@@ -4572,7 +4576,7 @@
 		(instances
 			(project "DIY GAMEPAD(ESP32) WIRELESS"
 				(path "/29cb8219-b10d-47f3-b960-fd5b6212cd29"
-					(reference "Dpad_right1")
+					(reference "DPAD_RIGHT")
 					(unit 1)
 				)
 			)
@@ -4740,7 +4744,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "719e86a1-aecf-4ac1-bac4-586d4246e12c")
-		(property "Reference" "R6"
+		(property "Reference" "R5"
 			(at 77.216 91.948 90)
 			(effects
 				(font
@@ -4792,7 +4796,7 @@
 		(instances
 			(project "DIY GAMEPAD(ESP32) WIRELESS"
 				(path "/29cb8219-b10d-47f3-b960-fd5b6212cd29"
-					(reference "R6")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -4808,7 +4812,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a45936b-7265-4731-9949-07dc9ed9a432")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR0101"
 			(at 167.64 62.23 0)
 			(effects
 				(font
@@ -4859,7 +4863,7 @@
 		(instances
 			(project ""
 				(path "/29cb8219-b10d-47f3-b960-fd5b6212cd29"
-					(reference "#PWR034")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -4875,7 +4879,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e45b584-84f3-4b88-a2c7-6e236537b8ad")
-		(property "Reference" "view_button1"
+		(property "Reference" "VIEW_BUTTON"
 			(at 46.99 180.34 0)
 			(effects
 				(font
@@ -4927,7 +4931,7 @@
 		(instances
 			(project "HACKPAD_V1"
 				(path "/29cb8219-b10d-47f3-b960-fd5b6212cd29"
-					(reference "view_button1")
+					(reference "VIEW_BUTTON")
 					(unit 1)
 				)
 			)
@@ -4942,7 +4946,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "82552769-40dc-43e3-9ee9-c89fb0a4dc5c")
-		(property "Reference" "R10"
+		(property "Reference" "R12"
 			(at 100.076 146.558 90)
 			(effects
 				(font
@@ -4994,7 +4998,7 @@
 		(instances
 			(project "DIY GAMEPAD(ESP32) WIRELESS"
 				(path "/29cb8219-b10d-47f3-b960-fd5b6212cd29"
-					(reference "R10")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -5010,7 +5014,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85e1f11f-6ed2-4127-9160-b57637b9d9e0")
-		(property "Reference" "Dpad_up1"
+		(property "Reference" "DPAD_UP"
 			(at 66.04 39.37 0)
 			(effects
 				(font
@@ -5062,7 +5066,7 @@
 		(instances
 			(project ""
 				(path "/29cb8219-b10d-47f3-b960-fd5b6212cd29"
-					(reference "Dpad_up1")
+					(reference "DPAD_UP")
 					(unit 1)
 				)
 			)
@@ -5077,7 +5081,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8a9bc2d4-12e9-432c-977e-2a650f652ee3")
-		(property "Reference" "R8"
+		(property "Reference" "R6"
 			(at 100.076 107.188 90)
 			(effects
 				(font
@@ -5129,7 +5133,7 @@
 		(instances
 			(project "DIY GAMEPAD(ESP32) WIRELESS"
 				(path "/29cb8219-b10d-47f3-b960-fd5b6212cd29"
-					(reference "R8")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -5145,7 +5149,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f3aeac2-c167-4860-8d4f-a1c80e5420a2")
-		(property "Reference" "A1"
+		(property "Reference" "A_BUTTON"
 			(at 69.85 118.11 0)
 			(effects
 				(font
@@ -5197,7 +5201,7 @@
 		(instances
 			(project "DIY GAMEPAD(ESP32) WIRELESS"
 				(path "/29cb8219-b10d-47f3-b960-fd5b6212cd29"
-					(reference "A1")
+					(reference "A_BUTTON")
 					(unit 1)
 				)
 			)
@@ -5212,7 +5216,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ac6cf1f3-5038-4f83-8b87-63345bd451a7")
-		(property "Reference" "R5"
+		(property "Reference" "R8"
 			(at 55.626 107.188 90)
 			(effects
 				(font
@@ -5264,7 +5268,7 @@
 		(instances
 			(project "DIY GAMEPAD(ESP32) WIRELESS"
 				(path "/29cb8219-b10d-47f3-b960-fd5b6212cd29"
-					(reference "R5")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -5280,7 +5284,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2d7bda9-3a57-4a50-ac49-ca423935cbca")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR0102"
 			(at 167.64 59.69 0)
 			(effects
 				(font
@@ -5331,7 +5335,7 @@
 		(instances
 			(project ""
 				(path "/29cb8219-b10d-47f3-b960-fd5b6212cd29"
-					(reference "#PWR033")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -5347,7 +5351,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7f24dfb-e17c-4f92-8a41-23dfe4b9e435")
-		(property "Reference" "Y1"
+		(property "Reference" "Y_BUTTON"
 			(at 66.04 90.17 0)
 			(effects
 				(font
@@ -5399,7 +5403,7 @@
 		(instances
 			(project "DIY GAMEPAD(ESP32) WIRELESS"
 				(path "/29cb8219-b10d-47f3-b960-fd5b6212cd29"
-					(reference "Y1")
+					(reference "Y_BUTTON")
 					(unit 1)
 				)
 			)
@@ -5415,7 +5419,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb381223-8a42-46d0-93e2-d359129ef625")
-		(property "Reference" "Dpad_down1"
+		(property "Reference" "DPAD_DOWN"
 			(at 69.85 67.31 0)
 			(effects
 				(font
@@ -5467,7 +5471,7 @@
 		(instances
 			(project "DIY GAMEPAD(ESP32) WIRELESS"
 				(path "/29cb8219-b10d-47f3-b960-fd5b6212cd29"
-					(reference "Dpad_down1")
+					(reference "DPAD_DOWN")
 					(unit 1)
 				)
 			)
@@ -5483,8 +5487,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb8276c5-c97c-434d-84a3-d91480c31a54")
-		(property "Reference" "TP4056_module1"
-			(at 166.3803 54.61 0)
+		(property "Reference" "TP4056_MODULE"
+			(at 166.37 55.88 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -5548,7 +5552,7 @@
 		(instances
 			(project ""
 				(path "/29cb8219-b10d-47f3-b960-fd5b6212cd29"
-					(reference "TP4056_module1")
+					(reference "TP4056_MODULE")
 					(unit 1)
 				)
 			)
@@ -5563,7 +5567,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c07100ae-bf72-4fe9-bc7d-c420fba83c0b")
-		(property "Reference" "left_joystick1"
+		(property "Reference" "LEFT_JOYSTICK"
 			(at 131.445 93.98 0)
 			(effects
 				(font
@@ -5624,7 +5628,7 @@
 		(instances
 			(project ""
 				(path "/29cb8219-b10d-47f3-b960-fd5b6212cd29"
-					(reference "left_joystick1")
+					(reference "LEFT_JOYSTICK")
 					(unit 1)
 				)
 			)
@@ -5640,7 +5644,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6f298d8-7f43-4a85-8e54-fff41f3760f1")
-		(property "Reference" "X1"
+		(property "Reference" "X_BUTTON"
 			(at 44.45 105.41 0)
 			(effects
 				(font
@@ -5692,7 +5696,7 @@
 		(instances
 			(project "DIY GAMEPAD(ESP32) WIRELESS"
 				(path "/29cb8219-b10d-47f3-b960-fd5b6212cd29"
-					(reference "X1")
+					(reference "X_BUTTON")
 					(unit 1)
 				)
 			)
@@ -5707,7 +5711,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d06dfdde-1a59-4e84-9222-124bfc81ff7c")
-		(property "Reference" "R11"
+		(property "Reference" "R10"
 			(at 55.626 157.988 90)
 			(effects
 				(font
@@ -5759,7 +5763,7 @@
 		(instances
 			(project "DIY GAMEPAD(ESP32) WIRELESS"
 				(path "/29cb8219-b10d-47f3-b960-fd5b6212cd29"
-					(reference "R11")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -5842,7 +5846,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5387ee3-3898-4296-af5e-67151dc2aab0")
-		(property "Reference" "L1"
+		(property "Reference" "L1_TRIGGER"
 			(at 44.45 144.78 0)
 			(effects
 				(font
@@ -5894,7 +5898,7 @@
 		(instances
 			(project "DIY GAMEPAD(ESP32) WIRELESS"
 				(path "/29cb8219-b10d-47f3-b960-fd5b6212cd29"
-					(reference "L1")
+					(reference "L1_TRIGGER")
 					(unit 1)
 				)
 			)
@@ -5976,7 +5980,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "da59a434-758e-4753-a508-65aaa7c5e3a8")
-		(property "Reference" "R15"
+		(property "Reference" "R14"
 			(at 102.616 182.118 90)
 			(effects
 				(font
@@ -6028,7 +6032,7 @@
 		(instances
 			(project "HACKPAD_V1"
 				(path "/29cb8219-b10d-47f3-b960-fd5b6212cd29"
-					(reference "R15")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -6043,7 +6047,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "de34e3a4-ca94-41fe-a185-0907d2bd929f")
-		(property "Reference" "right_joystick1"
+		(property "Reference" "RIGHT_JOYSTICK"
 			(at 163.576 93.98 0)
 			(effects
 				(font
@@ -6104,7 +6108,7 @@
 		(instances
 			(project "DIY GAMEPAD(ESP32) WIRELESS"
 				(path "/29cb8219-b10d-47f3-b960-fd5b6212cd29"
-					(reference "right_joystick1")
+					(reference "RIGHT_JOYSTICK")
 					(unit 1)
 				)
 			)

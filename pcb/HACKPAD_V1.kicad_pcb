@@ -120,8 +120,8 @@
 		(at 84 71.96)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
-		(property "Reference" "L1"
-			(at 0 -2.33 0)
+		(property "Reference" "L1_TRIGGER"
+			(at -4.5 -2.46 0)
 			(layer "F.SilkS")
 			(uuid "af4c0e58-6a69-4c43-bc93-c37ea8b94c74")
 			(effects
@@ -658,10 +658,10 @@
 	(footprint "Button_Switch_THT:SW_PUSH-12mm"
 		(layer "F.Cu")
 		(uuid "0e0a9a58-255f-423c-b721-f40172b604c1")
-		(at 208.75 116)
+		(at 208.5 116)
 		(descr "Generic SW PUSH 12mm, e.g https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/143/TL1100.pdf")
 		(tags "tact sw push 12mm")
-		(property "Reference" "X1"
+		(property "Reference" "X_BUTTON"
 			(at 5.83 -5.41 0)
 			(layer "F.SilkS")
 			(uuid "0592e6d5-7b49-4551-a539-8622f5ea97fa")
@@ -1184,10 +1184,10 @@
 	(footprint "Button_Switch_THT:SW_PUSH-12mm"
 		(layer "F.Cu")
 		(uuid "37afbd17-4d7d-46bf-9e89-ede0aca54790")
-		(at 225.75 101.5)
+		(at 225.5 101.5)
 		(descr "Generic SW PUSH 12mm, e.g https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/143/TL1100.pdf")
 		(tags "tact sw push 12mm")
-		(property "Reference" "Y1"
+		(property "Reference" "Y_BUTTON"
 			(at 5.83 -5.41 0)
 			(layer "F.SilkS")
 			(uuid "6026aab3-5178-4ab2-b5cb-0dcb2a2d3df8")
@@ -1435,7 +1435,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0614_L14.3mm_D5.7mm_P15.24mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "3e0d4782-1968-4b57-be33-6a18a064df01")
-		(at 203.76 135)
+		(at 203.51 135)
 		(descr "Resistor, Axial_DIN0614 series, Axial, Horizontal, pin pitch=15.24mm, 1.5W, length*diameter=14.3*5.7mm^2")
 		(tags "Resistor Axial_DIN0614 series Axial Horizontal pin pitch 15.24mm 1.5W length 14.3mm diameter 5.7mm")
 		(property "Reference" "R7"
@@ -1710,10 +1710,10 @@
 	(footprint "Resistor_THT:R_Axial_DIN0614_L14.3mm_D5.7mm_P15.24mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "3e584b42-0b09-435b-801c-0d3bf04609db")
-		(at 213.38 76.5)
+		(at 214.88 73.235)
 		(descr "Resistor, Axial_DIN0614 series, Axial, Horizontal, pin pitch=15.24mm, 1.5W, length*diameter=14.3*5.7mm^2")
 		(tags "Resistor Axial_DIN0614 series Axial Horizontal pin pitch 15.24mm 1.5W length 14.3mm diameter 5.7mm")
-		(property "Reference" "R13"
+		(property "Reference" "R11"
 			(at 7.62 -3.97 0)
 			(layer "F.SilkS")
 			(uuid "7598831c-997a-4b1a-91b5-3380d53245e8")
@@ -1988,7 +1988,7 @@
 		(at 184.88 56)
 		(descr "Resistor, Axial_DIN0614 series, Axial, Horizontal, pin pitch=15.24mm, 1.5W, length*diameter=14.3*5.7mm^2")
 		(tags "Resistor Axial_DIN0614 series Axial Horizontal pin pitch 15.24mm 1.5W length 14.3mm diameter 5.7mm")
-		(property "Reference" "R15"
+		(property "Reference" "R14"
 			(at 7.62 -3.97 0)
 			(layer "F.SilkS")
 			(uuid "bdf96eec-72eb-4c09-8114-f0b211846d8c")
@@ -2260,10 +2260,10 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "5a3c9685-bf93-45fb-8e3b-8e6d43230f00")
-		(at 193.025 138.45)
+		(at 185.5 143.46)
 		(descr "Through hole straight socket strip, 1x05, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x05 2.54mm single row")
-		(property "Reference" "right_joystick1"
+		(property "Reference" "RIGHT_JOYSTICK"
 			(at 0 -2.77 0)
 			(layer "F.SilkS")
 			(uuid "8ce55017-8409-4663-8aa0-e22fd87e2195")
@@ -2560,11 +2560,11 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "69ae850d-2231-4b0a-823b-64bf68054eb6")
-		(at 240 75.225)
+		(at 241.5 71.96)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
-		(property "Reference" "R1_trigger1"
-			(at 6.5 -1.225 0)
+		(property "Reference" "R1_TRIGGER"
+			(at 4.5 -2.725 0)
 			(layer "F.SilkS")
 			(uuid "bd6df539-78b8-472a-bdad-668bf9501e25")
 			(effects
@@ -2829,7 +2829,7 @@
 		(at 106.5 113)
 		(descr "Generic SW PUSH 12mm, e.g https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/143/TL1100.pdf")
 		(tags "tact sw push 12mm")
-		(property "Reference" "Dpad_right1"
+		(property "Reference" "DPAD_RIGHT"
 			(at 5.83 -5.41 0)
 			(layer "F.SilkS")
 			(uuid "89eaaec5-367d-44cc-b8ce-db49559807c5")
@@ -3080,7 +3080,7 @@
 		(at 95.5 73.5)
 		(descr "Resistor, Axial_DIN0614 series, Axial, Horizontal, pin pitch=15.24mm, 1.5W, length*diameter=14.3*5.7mm^2")
 		(tags "Resistor Axial_DIN0614 series Axial Horizontal pin pitch 15.24mm 1.5W length 14.3mm diameter 5.7mm")
-		(property "Reference" "R11"
+		(property "Reference" "R10"
 			(at 7.62 -3.97 0)
 			(layer "F.SilkS")
 			(uuid "1fb208f4-91c1-4a3f-833e-d703127e0722")
@@ -3355,7 +3355,7 @@
 		(at 222.5 48.5)
 		(descr "Generic SW PUSH 12mm, e.g https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/143/TL1100.pdf")
 		(tags "tact sw push 12mm")
-		(property "Reference" "Menu_button1"
+		(property "Reference" "MENU_BUTTON"
 			(at 5.83 -5.41 0)
 			(layer "F.SilkS")
 			(uuid "fab6ac70-a5d7-4c99-9a16-41b1e8143a89")
@@ -3606,8 +3606,8 @@
 		(at 88.65 71.96)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
-		(property "Reference" "L2"
-			(at 0 -2.33 0)
+		(property "Reference" "L2_TRIGGER"
+			(at 4.35 -2.46 0)
 			(layer "F.SilkS")
 			(uuid "82fc6c77-c07b-4d0b-868b-3a89948374c3")
 			(effects
@@ -3869,10 +3869,10 @@
 	(footprint "Button_Switch_THT:SW_PUSH-12mm"
 		(layer "F.Cu")
 		(uuid "829c80b5-9c57-43ac-ba3d-b2728a7ee48f")
-		(at 225.75 130.5)
+		(at 225.5 130.5)
 		(descr "Generic SW PUSH 12mm, e.g https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/143/TL1100.pdf")
 		(tags "tact sw push 12mm")
-		(property "Reference" "A1"
+		(property "Reference" "A_BUTTON"
 			(at 5.83 -5.41 0)
 			(layer "F.SilkS")
 			(uuid "050f093f-cb60-4267-84f7-388cf410d030")
@@ -4120,7 +4120,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0614_L14.3mm_D5.7mm_P15.24mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "9978fa94-5ccc-4a64-a25b-5fd50d2a1ec6")
-		(at 58.38 73.235)
+		(at 61.76 73.235)
 		(descr "Resistor, Axial_DIN0614 series, Axial, Horizontal, pin pitch=15.24mm, 1.5W, length*diameter=14.3*5.7mm^2")
 		(tags "Resistor Axial_DIN0614 series Axial Horizontal pin pitch 15.24mm 1.5W length 14.3mm diameter 5.7mm")
 		(property "Reference" "R9"
@@ -4395,10 +4395,10 @@
 	(footprint "Resistor_THT:R_Axial_DIN0614_L14.3mm_D5.7mm_P15.24mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "9b3d0d41-964f-4274-8a2f-9e6256fbfac6")
-		(at 247.5 78.5)
+		(at 249 73.5)
 		(descr "Resistor, Axial_DIN0614 series, Axial, Horizontal, pin pitch=15.24mm, 1.5W, length*diameter=14.3*5.7mm^2")
 		(tags "Resistor Axial_DIN0614 series Axial Horizontal pin pitch 15.24mm 1.5W length 14.3mm diameter 5.7mm")
-		(property "Reference" "R10"
+		(property "Reference" "R12"
 			(at 7.62 -3.97 0)
 			(layer "F.SilkS")
 			(uuid "61857072-5519-4903-a12a-3f128c5bbd9c")
@@ -4948,7 +4948,7 @@
 		(at 72.5 113)
 		(descr "Generic SW PUSH 12mm, e.g https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/143/TL1100.pdf")
 		(tags "tact sw push 12mm")
-		(property "Reference" "Dpad_left1"
+		(property "Reference" "DPAD_LEFT"
 			(at 5.83 -5.41 0)
 			(layer "F.SilkS")
 			(uuid "4fba0142-893e-4e9c-96d6-2dce959de03e")
@@ -5471,10 +5471,10 @@
 	(footprint "Resistor_THT:R_Axial_DIN0614_L14.3mm_D5.7mm_P15.24mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "be1a2c0c-f305-4838-abe6-2914eeb204a8")
-		(at 203.88 97)
+		(at 203.63 97)
 		(descr "Resistor, Axial_DIN0614 series, Axial, Horizontal, pin pitch=15.24mm, 1.5W, length*diameter=14.3*5.7mm^2")
 		(tags "Resistor Axial_DIN0614 series Axial Horizontal pin pitch 15.24mm 1.5W length 14.3mm diameter 5.7mm")
-		(property "Reference" "R6"
+		(property "Reference" "R5"
 			(at 7.62 -3.97 0)
 			(layer "F.SilkS")
 			(uuid "544248ff-5406-4cde-84fb-f2365c8ea853")
@@ -5746,10 +5746,10 @@
 	(footprint "Resistor_THT:R_Axial_DIN0614_L14.3mm_D5.7mm_P15.24mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "d04b5df3-a72d-4840-9497-2cfb73288e43")
-		(at 261.38 114.5)
+		(at 248.63 105.5)
 		(descr "Resistor, Axial_DIN0614 series, Axial, Horizontal, pin pitch=15.24mm, 1.5W, length*diameter=14.3*5.7mm^2")
 		(tags "Resistor Axial_DIN0614 series Axial Horizontal pin pitch 15.24mm 1.5W length 14.3mm diameter 5.7mm")
-		(property "Reference" "R8"
+		(property "Reference" "R6"
 			(at 7.62 -3.97 0)
 			(layer "F.SilkS")
 			(uuid "3bdd6196-6d21-4f25-8604-449d398667ab")
@@ -6024,8 +6024,8 @@
 		(at 89.5 98.5)
 		(descr "Generic SW PUSH 12mm, e.g https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/143/TL1100.pdf")
 		(tags "tact sw push 12mm")
-		(property "Reference" "Dpad_up1"
-			(at 22.33 6.09 0)
+		(property "Reference" "DPAD_UP"
+			(at 7 -4.5 0)
 			(layer "F.SilkS")
 			(uuid "596ce389-a253-4ae2-94ae-f2d1dcdec266")
 			(effects
@@ -6273,8 +6273,8 @@
 		(layer "F.Cu")
 		(uuid "e2570255-af68-4ba8-9240-74a9ad374070")
 		(at 156.1 53.9)
-		(property "Reference" "TP4056_module1"
-			(at 8.255 -19.685 0)
+		(property "Reference" "TP4056_MODULE"
+			(at 8.4 -27.9 0)
 			(layer "F.SilkS")
 			(uuid "211898b2-347d-44a9-af96-7788b304aa5e")
 			(effects
@@ -6447,7 +6447,7 @@
 		(at 125.88 55)
 		(descr "Resistor, Axial_DIN0614 series, Axial, Horizontal, pin pitch=15.24mm, 1.5W, length*diameter=14.3*5.7mm^2")
 		(tags "Resistor Axial_DIN0614 series Axial Horizontal pin pitch 15.24mm 1.5W length 14.3mm diameter 5.7mm")
-		(property "Reference" "R12"
+		(property "Reference" "R13"
 			(at 7.62 -3.97 0)
 			(layer "F.SilkS")
 			(uuid "ce5588df-5fdd-46c9-9223-4a67657c5672")
@@ -6721,7 +6721,7 @@
 		(uuid "e792e407-d541-4a8a-aae0-bb14f91d751d")
 		(at 164.5 86.5)
 		(property "Reference" "Doit_ESP32_DEVKITV1"
-			(at -11.355 -27.36 0)
+			(at -0.5 -27 0)
 			(layer "F.SilkS")
 			(uuid "4a13d6ca-cf58-4654-891b-26a38adf0590")
 			(effects
@@ -7613,7 +7613,7 @@
 		(at 89.5 127.5)
 		(descr "Generic SW PUSH 12mm, e.g https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/143/TL1100.pdf")
 		(tags "tact sw push 12mm")
-		(property "Reference" "Dpad_down1"
+		(property "Reference" "DPAD_DOWN"
 			(at 5.83 -5.41 0)
 			(layer "F.SilkS")
 			(uuid "f665a70e-75d2-41f5-b299-5996f4eafcc8")
@@ -7861,10 +7861,10 @@
 	(footprint "Button_Switch_THT:SW_PUSH-12mm"
 		(layer "F.Cu")
 		(uuid "f108e2a6-d69c-4569-b1a1-0b85c314f163")
-		(at 243 116)
+		(at 242.75 116)
 		(descr "Generic SW PUSH 12mm, e.g https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/143/TL1100.pdf")
 		(tags "tact sw push 12mm")
-		(property "Reference" "B1"
+		(property "Reference" "B_BUTTON"
 			(at 5.83 -5.41 0)
 			(layer "F.SilkS")
 			(uuid "b723afdd-557b-4046-8b24-b1715cfe7525")
@@ -8112,10 +8112,10 @@
 	(footprint "Resistor_THT:R_Axial_DIN0614_L14.3mm_D5.7mm_P15.24mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "f147b0ac-585b-4807-b0b5-a01e9f99367c")
-		(at 187.38 115)
+		(at 187.13 115)
 		(descr "Resistor, Axial_DIN0614 series, Axial, Horizontal, pin pitch=15.24mm, 1.5W, length*diameter=14.3*5.7mm^2")
 		(tags "Resistor Axial_DIN0614 series Axial Horizontal pin pitch 15.24mm 1.5W length 14.3mm diameter 5.7mm")
-		(property "Reference" "R5"
+		(property "Reference" "R8"
 			(at 7.62 -3.97 0)
 			(layer "F.SilkS")
 			(uuid "0d04c6ee-3bda-4c6e-af9c-8fba900cbbee")
@@ -8387,11 +8387,11 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "f1a97604-a41c-477b-8db0-001d49000378")
-		(at 236.172684 75.224228)
+		(at 237.672684 71.959228)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
-		(property "Reference" "R2_trigger1"
-			(at -3.5 -3.46 0)
+		(property "Reference" "R2_TRIGGER"
+			(at -5.172684 -2.724228 0)
 			(layer "F.SilkS")
 			(uuid "0776941e-8889-4ecd-86d5-3507d1dbca99")
 			(effects
@@ -8653,10 +8653,10 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "fadc5d08-8b34-4091-996b-133218adba41")
-		(at 144 142.84)
+		(at 144.778723 143.363734)
 		(descr "Through hole straight socket strip, 1x05, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x05 2.54mm single row")
-		(property "Reference" "left_joystick1"
+		(property "Reference" "LEFT_JOYSTICK"
 			(at 0 -2.77 0)
 			(layer "F.SilkS")
 			(uuid "9516a24b-fc06-4525-ba6f-455b030e2071")
@@ -8956,7 +8956,7 @@
 		(at 102.25 50)
 		(descr "Generic SW PUSH 12mm, e.g https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/143/TL1100.pdf")
 		(tags "tact sw push 12mm")
-		(property "Reference" "view_button1"
+		(property "Reference" "VIEW_BUTTON"
 			(at 5.83 -5.41 0)
 			(layer "F.SilkS")
 			(uuid "ee70f337-5500-4906-938e-8e9a7a04fa9e")
@@ -9202,6 +9202,22 @@
 		)
 	)
 	(segment
+		(start 126.38 111)
+		(end 119.38 118)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 10)
+		(uuid "c94e9dbf-9863-47a5-9b17-5b663491bc67")
+	)
+	(segment
+		(start 119.38 118)
+		(end 119 118)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 10)
+		(uuid "e79aab29-ebf0-4911-9ea7-350b61eea0b4")
+	)
+	(segment
 		(start 88.38 89.5)
 		(end 86.980001 90.899999)
 		(width 0.2)
@@ -9226,11 +9242,83 @@
 		(uuid "9c7ab2ea-6167-4891-8bb3-7316c99a61fe")
 	)
 	(segment
+		(start 110.74 82.38)
+		(end 139.36 111)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 27)
+		(uuid "20294700-47e3-49f3-9145-c4ff9c67ec19")
+	)
+	(segment
+		(start 113.255 70.985)
+		(end 110.74 73.5)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 27)
+		(uuid "29a61f66-ac90-450a-a889-942c1624a994")
+	)
+	(segment
+		(start 139.36 111)
+		(end 141.62 111)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 27)
+		(uuid "491eb2d8-e554-46e6-8507-98f173f0035e")
+	)
+	(segment
 		(start 121.015 70.985)
 		(end 121 71)
 		(width 0.2)
 		(layer "B.Cu")
 		(net 27)
 		(uuid "55d31cbd-4e32-4114-af03-51e8e0cf479f")
+	)
+	(segment
+		(start 139.5 70.985)
+		(end 113.255 70.985)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 27)
+		(uuid "5920e98a-103f-4fee-a526-d170b5daefe8")
+	)
+	(segment
+		(start 141.12 69.365)
+		(end 141.12 55)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 27)
+		(uuid "607edbdd-bf1b-429d-8f51-d4c7c495771e")
+	)
+	(segment
+		(start 110.74 82.38)
+		(end 103.62 89.5)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 27)
+		(uuid "66fa99c9-954f-4e8a-9264-f01740831e83")
+	)
+	(segment
+		(start 151.8 70.985)
+		(end 139.5 70.985)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 27)
+		(uuid "8c4e3425-ee5b-4ce2-8682-d5dbda9dace2")
+	)
+	(segment
+		(start 139.5 70.985)
+		(end 141.12 69.365)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 27)
+		(uuid "e65fcf16-affe-4959-9d3d-ce34c4e8825d")
+	)
+	(segment
+		(start 110.74 73.5)
+		(end 110.74 82.38)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 27)
+		(uuid "fd269342-73fc-4206-a114-a16108312154")
 	)
 )
