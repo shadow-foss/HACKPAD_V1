@@ -117,7 +117,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "03915b04-9997-45c1-8e5f-d30262bf1578")
-		(at 116 72)
+		(at 103.5 65.46)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "L1_TRIGGER"
@@ -383,7 +383,7 @@
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "0c049ce5-678b-4762-9688-0f67b6d87184")
-		(at 81.25 114)
+		(at 109.75 114.5)
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R4"
@@ -596,7 +596,7 @@
 	(footprint "Button_Switch_THT:SW_PUSH-12mm"
 		(layer "F.Cu")
 		(uuid "0e0a9a58-255f-423c-b721-f40172b604c1")
-		(at 221.75 109)
+		(at 191.25 109.5)
 		(descr "Generic SW PUSH 12mm, e.g https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/143/TL1100.pdf")
 		(tags "tact sw push 12mm")
 		(property "Reference" "X_BUTTON"
@@ -847,7 +847,7 @@
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "26ce6924-cbe5-40de-9770-6f651235a09d")
-		(at 98.25 128.5)
+		(at 126.75 129)
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R3"
@@ -1060,7 +1060,7 @@
 	(footprint "Button_Switch_THT:SW_PUSH-12mm"
 		(layer "F.Cu")
 		(uuid "37afbd17-4d7d-46bf-9e89-ede0aca54790")
-		(at 238.75 94.5)
+		(at 208 95)
 		(descr "Generic SW PUSH 12mm, e.g https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/143/TL1100.pdf")
 		(tags "tact sw push 12mm")
 		(property "Reference" "Y_BUTTON"
@@ -1075,7 +1075,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 6.37 10.5 0)
+			(at 6.62 10.5 0)
 			(layer "F.Fab")
 			(uuid "cce95c96-80be-419b-8072-2131a5a04ea8")
 			(effects
@@ -1242,7 +1242,7 @@
 			(uuid "8c3cd10c-2a46-48c4-838c-11a5e5df38ad")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 6.25 2.5 0)
+			(at 6.5 2.5 0)
 			(layer "F.Fab")
 			(uuid "eeab5826-5424-472e-8c4a-82dcc8d869ee")
 			(effects
@@ -1311,7 +1311,7 @@
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "3e0d4782-1968-4b57-be33-6a18a064df01")
-		(at 232.8 128.5)
+		(at 202.3 129)
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R7"
@@ -1524,7 +1524,7 @@
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "3e584b42-0b09-435b-801c-0d3bf04609db")
-		(at 199 75)
+		(at 212.672684 68.54)
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R11"
@@ -1737,7 +1737,7 @@
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "58bbaeb1-0ef4-4e53-9c45-401fbe2f290e")
-		(at 194.25 55.5)
+		(at 183 69)
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R14"
@@ -2250,7 +2250,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "69ae850d-2231-4b0a-823b-64bf68054eb6")
-		(at 210.827316 72.46)
+		(at 224.5 66)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "R1_TRIGGER"
@@ -2516,7 +2516,7 @@
 	(footprint "Button_Switch_THT:SW_PUSH-12mm"
 		(layer "F.Cu")
 		(uuid "7438d298-ec8e-49c3-beb5-db47e4b7c2c3")
-		(at 96.75 109)
+		(at 125.25 109.5)
 		(descr "Generic SW PUSH 12mm, e.g https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/143/TL1100.pdf")
 		(tags "tact sw push 12mm")
 		(property "Reference" "DPAD_RIGHT"
@@ -2767,7 +2767,7 @@
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "7f5df3af-0aef-4967-a6d9-6fdc5676e114")
-		(at 128.65 74.5)
+		(at 116.15 67.96)
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R10"
@@ -2980,7 +2980,7 @@
 	(footprint "Button_Switch_THT:SW_PUSH-12mm"
 		(layer "F.Cu")
 		(uuid "8012bca8-ff0c-4d0b-9617-23fea306d59f")
-		(at 201.75 50.5)
+		(at 190.5 64)
 		(descr "Generic SW PUSH 12mm, e.g https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/143/TL1100.pdf")
 		(tags "tact sw push 12mm")
 		(property "Reference" "MENU_BUTTON"
@@ -3231,7 +3231,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "82961b62-653b-428e-a45c-9e0f96a2b486")
-		(at 120.65 72)
+		(at 108.15 65.46)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "L2_TRIGGER"
@@ -3497,7 +3497,7 @@
 	(footprint "Button_Switch_THT:SW_PUSH-12mm"
 		(layer "F.Cu")
 		(uuid "829c80b5-9c57-43ac-ba3d-b2728a7ee48f")
-		(at 238.75 123.5)
+		(at 208.25 124)
 		(descr "Generic SW PUSH 12mm, e.g https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/143/TL1100.pdf")
 		(tags "tact sw push 12mm")
 		(property "Reference" "A_BUTTON"
@@ -3748,7 +3748,7 @@
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "9978fa94-5ccc-4a64-a25b-5fd50d2a1ec6")
-		(at 108.15 74.5)
+		(at 95.65 67.96)
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R9"
@@ -3961,7 +3961,7 @@
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "9b3d0d41-964f-4274-8a2f-9e6256fbfac6")
-		(at 218.5 75)
+		(at 232.172684 68.54)
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R12"
@@ -4174,7 +4174,7 @@
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "a27b5712-e968-40cf-b2ca-72e511622389")
-		(at 98.75 99.5)
+		(at 127.25 100)
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R1"
@@ -4387,7 +4387,7 @@
 	(footprint "Button_Switch_THT:SW_PUSH-12mm"
 		(layer "F.Cu")
 		(uuid "a301ce8d-bb9a-4179-88ba-c3934289b39d")
-		(at 62.75 109)
+		(at 91.25 109.5)
 		(descr "Generic SW PUSH 12mm, e.g https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/143/TL1100.pdf")
 		(tags "tact sw push 12mm")
 		(property "Reference" "DPAD_LEFT"
@@ -4638,7 +4638,7 @@
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "a6adc588-e269-49d3-b0b0-15154a67a707")
-		(at 115.2 114)
+		(at 143.7 114.5)
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R2"
@@ -4851,7 +4851,7 @@
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "be1a2c0c-f305-4838-abe6-2914eeb204a8")
-		(at 232.7 99.5)
+		(at 202.2 100)
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R5"
@@ -5064,7 +5064,7 @@
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "d04b5df3-a72d-4840-9497-2cfb73288e43")
-		(at 249.75 114)
+		(at 219.25 114.5)
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R6"
@@ -5277,7 +5277,7 @@
 	(footprint "Button_Switch_THT:SW_PUSH-12mm"
 		(layer "F.Cu")
 		(uuid "d4e97e93-e576-4852-a86b-4c7072b1c70e")
-		(at 79.75 94.5)
+		(at 108.25 95)
 		(descr "Generic SW PUSH 12mm, e.g https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/143/TL1100.pdf")
 		(tags "tact sw push 12mm")
 		(property "Reference" "DPAD_UP"
@@ -5700,7 +5700,7 @@
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "e2ed4909-1b1e-4994-8896-a9467087000d")
-		(at 130.15 55)
+		(at 146.25 69)
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R13"
@@ -6804,7 +6804,7 @@
 	(footprint "Button_Switch_THT:SW_PUSH-12mm"
 		(layer "F.Cu")
 		(uuid "eb15b0f8-26b8-4e5b-b84c-fe37d1f669f9")
-		(at 79.75 123.5)
+		(at 108.25 124)
 		(descr "Generic SW PUSH 12mm, e.g https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/143/TL1100.pdf")
 		(tags "tact sw push 12mm")
 		(property "Reference" "DPAD_DOWN"
@@ -7055,11 +7055,11 @@
 	(footprint "Button_Switch_THT:SW_PUSH-12mm"
 		(layer "F.Cu")
 		(uuid "f108e2a6-d69c-4569-b1a1-0b85c314f163")
-		(at 256 109)
+		(at 225.25 109.5)
 		(descr "Generic SW PUSH 12mm, e.g https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/143/TL1100.pdf")
 		(tags "tact sw push 12mm")
 		(property "Reference" "B_BUTTON"
-			(at 5.83 -5.41 0)
+			(at 6.08 -5.41 0)
 			(layer "F.SilkS")
 			(uuid "b723afdd-557b-4046-8b24-b1715cfe7525")
 			(effects
@@ -7070,7 +7070,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 6.37 10.5 0)
+			(at 6.62 10.5 0)
 			(layer "F.Fab")
 			(uuid "776cedb6-73f9-4175-b2a0-8bd3376f0351")
 			(effects
@@ -7237,7 +7237,7 @@
 			(uuid "937d5bc6-1f45-4412-bfbf-c1eb99aeacae")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 6.25 2.5 0)
+			(at 6.5 2.5 0)
 			(layer "F.Fab")
 			(uuid "9d72d36c-4c27-4258-8013-0d5706ef5bca")
 			(effects
@@ -7306,7 +7306,7 @@
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "f147b0ac-585b-4807-b0b5-a01e9f99367c")
-		(at 215.8 114)
+		(at 185.3 114.5)
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R8"
@@ -7519,7 +7519,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "f1a97604-a41c-477b-8db0-001d49000378")
-		(at 207 72.459228)
+		(at 220.672684 65.999228)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "R2_TRIGGER"
@@ -8085,7 +8085,7 @@
 	(footprint "Button_Switch_THT:SW_PUSH-12mm"
 		(layer "F.Cu")
 		(uuid "fca3eb47-e2bd-48f7-8dc5-023a929d25c0")
-		(at 109.9 50)
+		(at 126 64)
 		(descr "Generic SW PUSH 12mm, e.g https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/143/TL1100.pdf")
 		(tags "tact sw push 12mm")
 		(property "Reference" "VIEW_BUTTON"
@@ -8334,16 +8334,16 @@
 		)
 	)
 	(segment
-		(start 128.665 70.985)
-		(end 128.65 71)
+		(start 116.165 64.445)
+		(end 116.15 64.46)
 		(width 0.2)
 		(layer "B.Cu")
 		(net 2)
 		(uuid "55d31cbd-4e32-4114-af03-51e8e0cf479f")
 	)
 	(segment
-		(start 109.63 114)
-		(end 109.25 114)
+		(start 138.13 114.5)
+		(end 137.75 114.5)
 		(width 0.2)
 		(layer "B.Cu")
 		(net 10)
