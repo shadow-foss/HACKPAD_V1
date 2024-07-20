@@ -657,20 +657,28 @@
 				)
 			)
 		)
-		(symbol "HACKPAD_V1:Doit_esp32_devkitv1"
+		(symbol "HACKPAD_V1_SYM:ESP32_DEVKITV1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Doit_ESP32_DEVKITV1"
-				(at 0 11.684 0)
+			(property "Reference" "ESP32_DEVKITV1"
+				(at 0 11.43 0)
 				(effects
 					(font
-						(size 0.762 0.762)
+						(size 1.27 1.27)
 					)
 				)
 			)
 			(property "Value" ""
-				(at 1.27 -7.62 0)
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "HACKPAD_V1_FOOTPRINTS:ESP32_DEVKITV1"
+				(at 1.27 13.462 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -678,17 +686,8 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "HACKPAD_V1:Doit_ESP32_DEVKITV1"
-				(at 0 15.494 0)
-				(effects
-					(font
-						(size 0.889 0.889)
-					)
-					(hide yes)
-				)
-			)
 			(property "Datasheet" ""
-				(at 1.27 -7.62 0)
+				(at 0 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -697,7 +696,7 @@
 				)
 			)
 			(property "Description" ""
-				(at 1.27 -7.62 0)
+				(at 0 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -705,7 +704,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Doit_esp32_devkitv1_1_1"
+			(symbol "ESP32_DEVKITV1_1_1"
 				(rectangle
 					(start -5.08 10.16)
 					(end 5.08 -11.43)
@@ -1259,178 +1258,6 @@
 				)
 			)
 		)
-		(symbol "HACKPAD_V1:TP4056_module"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP4056_module"
-				(at 0 4.318 0)
-				(effects
-					(font
-						(size 0.762 0.762)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0.0103 1.8897 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "HACKPAD_V1:TP4056"
-				(at -0.254 5.588 0)
-				(effects
-					(font
-						(size 0.762 0.762)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0.0103 1.8897 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0.0103 1.8897 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TP4056_module_0_1"
-				(rectangle
-					(start -2.54 2.54)
-					(end 2.54 -5.127)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "TP4056_module_1_1"
-				(pin bidirectional line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 0.508 0.508)
-							)
-						)
-					)
-					(number "B+"
-						(effects
-							(font
-								(size 0.508 0.508)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 0.508 0.508)
-							)
-						)
-					)
-					(number "B-"
-						(effects
-							(font
-								(size 0.508 0.508)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 0.508 0.508)
-							)
-						)
-					)
-					(number "IN+"
-						(effects
-							(font
-								(size 0.508 0.508)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -5.08 -1.27 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 0.508 0.508)
-							)
-						)
-					)
-					(number "IN-"
-						(effects
-							(font
-								(size 0.508 0.508)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 5.08 1.27 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 0.508 0.508)
-							)
-						)
-					)
-					(number "OUT+"
-						(effects
-							(font
-								(size 0.508 0.508)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 5.08 -3.81 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 0.508 0.508)
-							)
-						)
-					)
-					(number "OUT-"
-						(effects
-							(font
-								(size 0.508 0.508)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers hide)
 			(pin_names
@@ -1570,6 +1397,177 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "TP4056_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP4056_MODULE"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "HACKPAD_V1_FOOTPRINTS:TP4056"
+				(at 0 7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TP4056_1_0_1"
+				(rectangle
+					(start -2.54 3.81)
+					(end 2.54 -3.857)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TP4056_1_1_1"
+				(pin bidirectional line
+					(at 5.08 1.27 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "B+"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 5.08 -1.27 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "B-"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "IN+"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "IN-"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "OUT+"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "OUT-"
+						(effects
+							(font
+								(size 0.508 0.508)
 							)
 						)
 					)
@@ -1822,6 +1820,10 @@
 		(uuid "85302ace-2f7e-4dab-a0bb-1fb10a2ed07f")
 	)
 	(no_connect
+		(at 125.73 99.06)
+		(uuid "8abcb333-9702-48ce-876d-7c83e7e6a675")
+	)
+	(no_connect
 		(at 161.29 60.96)
 		(uuid "aaddce76-deaa-43d4-a1f3-a11a7d78beb8")
 	)
@@ -1840,26 +1842,6 @@
 	(no_connect
 		(at 142.24 73.66)
 		(uuid "e210229b-1469-4584-ab52-d05a2de77dab")
-	)
-	(wire
-		(pts
-			(xy 59.69 73.66) (xy 64.77 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "066c3de4-0db5-4c2c-8402-51454831a2b8")
-	)
-	(wire
-		(pts
-			(xy 81.28 45.72) (xy 82.55 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a6e90de-f83d-4ad6-8951-20c2329ded49")
 	)
 	(wire
 		(pts
@@ -1893,16 +1875,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 73.66) (xy 74.93 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18d11e24-61d5-4270-a0e9-51750b3c11a4")
-	)
-	(wire
-		(pts
 			(xy 154.94 55.88) (xy 142.24 55.88)
 		)
 		(stroke
@@ -1930,16 +1902,6 @@
 			(type default)
 		)
 		(uuid "21beacf6-447d-454e-b3da-faa1d8c4af6c")
-	)
-	(wire
-		(pts
-			(xy 34.29 60.96) (xy 39.37 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "355d92bc-c005-43f4-9397-08ee27884e50")
 	)
 	(wire
 		(pts
@@ -2003,16 +1965,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 60.96) (xy 49.53 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4858ae39-b239-4bc6-b2b8-591ba2acff5b")
-	)
-	(wire
-		(pts
 			(xy 96.52 111.76) (xy 93.98 111.76)
 		)
 		(stroke
@@ -2020,26 +1972,6 @@
 			(type default)
 		)
 		(uuid "5816c6c4-3b31-43a5-95a9-4adabb4167ee")
-	)
-	(wire
-		(pts
-			(xy 55.88 45.72) (xy 60.96 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5891e6c6-ffb2-4368-b8a5-6faf26630b8b")
-	)
-	(wire
-		(pts
-			(xy 78.74 60.96) (xy 83.82 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6fa6b778-a2bc-4694-8d47-4f204741fbe1")
 	)
 	(wire
 		(pts
@@ -2060,16 +1992,6 @@
 			(type default)
 		)
 		(uuid "7f2484ac-ea63-4cdc-84c8-eb2f0f61dda6")
-	)
-	(wire
-		(pts
-			(xy 73.66 45.72) (xy 71.12 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8360eb44-ecfc-40d4-830f-4d8f72ac72dc")
 	)
 	(wire
 		(pts
@@ -2150,16 +2072,6 @@
 			(type default)
 		)
 		(uuid "eaea78fa-52e6-4ecc-8fe0-f65e83621cab")
-	)
-	(wire
-		(pts
-			(xy 96.52 60.96) (xy 93.98 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee95c69b-d056-45a8-95ab-ed123b77d73e")
 	)
 	(wire
 		(pts
@@ -2428,24 +2340,24 @@
 			)
 		)
 	)
-	(global_label "3.3v"
+	(global_label "Dpad_up"
 		(shape input)
-		(at 85.09 73.66 0)
+		(at 53.34 63.5 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 0.508 0.508)
+				(size 0.635 0.635)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "09e7fcd0-51cc-4c58-a2e4-524b092e9edf")
+		(uuid "082988d6-e551-4444-bfdf-713751e27b23")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 87.8806 73.66 0)
+			(at 47.856 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2759,6 +2671,28 @@
 			)
 		)
 	)
+	(global_label "Dpad_right"
+		(shape input)
+		(at 53.34 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify right)
+		)
+		(uuid "2b001490-9e05-4cfb-901e-ebceff5d527c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 46.7976 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "3.3v"
 		(shape input)
 		(at 81.28 96.52 0)
@@ -2827,22 +2761,22 @@
 	)
 	(global_label "VRy-L"
 		(shape input)
-		(at 135.89 106.68 0)
+		(at 125.73 101.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 0.635 0.635)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "34d66e29-30ea-446f-b5f1-77871145be4b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.4547 106.68 0)
+			(at 121.274 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2913,68 +2847,24 @@
 			)
 		)
 	)
-	(global_label "Dpad_up"
-		(shape input)
-		(at 72.39 45.72 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.635 0.635)
-			)
-			(justify left)
-		)
-		(uuid "43aabdf3-165b-4c85-b9ab-32d894570a7d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.39 41.3329 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Dpad_down"
-		(shape input)
-		(at 76.2 73.66 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.635 0.635)
-			)
-			(justify left)
-		)
-		(uuid "4d4f5d7f-50c3-4ab6-973b-c6dfbcad8fcf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.2 68.2811 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "gnd"
 		(shape input)
-		(at 78.74 60.96 180)
+		(at 67.31 63.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 0.508 0.508)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "5376fc35-570b-4657-9329-d68f22b6ab0b")
+		(uuid "497d97a2-f1b9-4a98-b64f-9283bfb7f22d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.1671 60.96 0)
+			(at 69.8829 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3133,19 +3023,19 @@
 			)
 		)
 	)
-	(global_label "gnd"
+	(global_label "Dpad_left"
 		(shape input)
-		(at 34.29 60.96 180)
+		(at 53.34 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 0.508 0.508)
+				(size 0.635 0.635)
 			)
 			(justify right)
 		)
-		(uuid "8359c652-f1fa-45f7-b699-fa594e09e799")
+		(uuid "80e5122d-1b76-4cfc-a1f9-e76a9da3003c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.7171 60.96 0)
+			(at 47.4023 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3190,6 +3080,28 @@
 		(uuid "8dbaa041-78ca-43d5-9941-077904e698a1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 145.9015 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3.3v"
+		(shape input)
+		(at 67.31 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left)
+		)
+		(uuid "91e27bd5-ffc0-4c65-8d93-be57513d9a5e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 70.1006 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3245,22 +3157,22 @@
 	)
 	(global_label "SW-L"
 		(shape input)
-		(at 135.89 109.22 0)
+		(at 125.73 106.68 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 0.635 0.635)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "94a7a78d-2d48-461e-8306-681c205767ef")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.1887 109.22 0)
+			(at 121.6066 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3333,7 +3245,7 @@
 	)
 	(global_label "3.3v"
 		(shape input)
-		(at 135.89 101.6 0)
+		(at 142.24 106.68 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3343,7 +3255,7 @@
 		)
 		(uuid "a3e72d1e-74d4-4209-b614-a1600a86e0f4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.6806 101.6 0)
+			(at 145.0306 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3465,72 +3377,6 @@
 	)
 	(global_label "3.3v"
 		(shape input)
-		(at 104.14 60.96 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.508 0.508)
-			)
-			(justify left)
-		)
-		(uuid "bf83a7cd-9c9f-4473-8eeb-077e5d234ff7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.9306 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "3.3v"
-		(shape input)
-		(at 82.55 45.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.508 0.508)
-			)
-			(justify left)
-		)
-		(uuid "c4798b66-c97d-4c56-8a8d-6225505fda87")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.3406 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "3.3v"
-		(shape input)
-		(at 59.69 60.96 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.508 0.508)
-			)
-			(justify left)
-		)
-		(uuid "cb9da031-4f4c-4288-9af0-44e3f10e9ada")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.4806 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "3.3v"
-		(shape input)
 		(at 106.68 186.69 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3547,28 +3393,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "gnd"
-		(shape input)
-		(at 59.69 73.66 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.508 0.508)
-			)
-			(justify right)
-		)
-		(uuid "ccc8aef5-0579-4380-8c6e-3af4184fd232")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.1171 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -3685,50 +3509,6 @@
 	)
 	(global_label "gnd"
 		(shape input)
-		(at 55.88 45.72 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.508 0.508)
-			)
-			(justify right)
-		)
-		(uuid "ddc1041a-c465-45d2-a292-99f5529aa62e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 53.3071 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Dpad_left"
-		(shape input)
-		(at 50.8 60.96 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.635 0.635)
-			)
-			(justify left)
-		)
-		(uuid "e4b35070-0fa6-4ae8-9dd2-a68794bc9585")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.8 56.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "gnd"
-		(shape input)
 		(at 78.74 111.76 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3749,24 +3529,24 @@
 			)
 		)
 	)
-	(global_label "Dpad_right"
+	(global_label "Dpad_down"
 		(shape input)
-		(at 95.25 60.96 90)
+		(at 53.34 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 0.635 0.635)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "eeae6089-ae50-46f1-9b55-6f1747586953")
+		(uuid "ec063934-7504-4b04-9e7b-de0c734e83e1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.25 55.7262 90)
+			(at 46.6163 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3905,22 +3685,22 @@
 	)
 	(global_label "VRx-L"
 		(shape input)
-		(at 135.89 104.14 0)
+		(at 125.73 104.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 0.635 0.635)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "f79a4861-5862-42d0-a390-b5e57c534f93")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.4789 104.14 0)
+			(at 121.2438 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3949,7 +3729,7 @@
 	)
 	(global_label "gnd"
 		(shape input)
-		(at 135.89 99.06 0)
+		(at 142.24 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3959,7 +3739,7 @@
 		)
 		(uuid "fce681c1-dcfc-4bc1-a20d-a7c16f50af6f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.4629 99.06 0)
+			(at 144.8129 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4023,7 +3803,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "076eb02b-dcd4-46e6-861d-0cfe58a62355")
-		(property "Reference" "R2_TRIGGER"
+		(property "Reference" "R2_TRIGGER1"
 			(at 88.9 156.21 0)
 			(effects
 				(font
@@ -4075,7 +3855,7 @@
 		(instances
 			(project "DIY GAMEPAD(ESP32) WIRELESS"
 				(path "/29cb8219-b10d-47f3-b960-fd5b6212cd29"
-					(reference "R2_TRIGGER")
+					(reference "R2_TRIGGER1")
 					(unit 1)
 				)
 			)
@@ -4106,7 +3886,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0614_L14.3mm_D5.7mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 58.42 188.468 90)
 			(effects
 				(font
@@ -4158,7 +3938,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15562359-fb6f-4b2b-ab82-ce05569f2fa1")
-		(property "Reference" "B_BUTTON"
+		(property "Reference" "B_BUTTON1"
 			(at 88.9 105.41 0)
 			(effects
 				(font
@@ -4210,7 +3990,7 @@
 		(instances
 			(project "DIY GAMEPAD(ESP32) WIRELESS"
 				(path "/29cb8219-b10d-47f3-b960-fd5b6212cd29"
-					(reference "B_BUTTON")
+					(reference "B_BUTTON1")
 					(unit 1)
 				)
 			)
@@ -4241,7 +4021,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0614_L14.3mm_D5.7mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 100.33 164.338 90)
 			(effects
 				(font
@@ -4293,7 +4073,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f6ac4c7-aa23-4dd8-9fda-26ec300ffec0")
-		(property "Reference" "L2_TRIGGER"
+		(property "Reference" "L2_TRIGGER1"
 			(at 44.45 156.21 0)
 			(effects
 				(font
@@ -4345,7 +4125,7 @@
 		(instances
 			(project "DIY GAMEPAD(ESP32) WIRELESS"
 				(path "/29cb8219-b10d-47f3-b960-fd5b6212cd29"
-					(reference "L2_TRIGGER")
+					(reference "L2_TRIGGER1")
 					(unit 1)
 				)
 			)
@@ -4361,7 +4141,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f803952-52a0-43a8-a1a0-78e0739c31c8")
-		(property "Reference" "R1_TRIGGER"
+		(property "Reference" "R1_TRIGGER1"
 			(at 88.9 144.78 0)
 			(effects
 				(font
@@ -4413,39 +4193,41 @@
 		(instances
 			(project "DIY GAMEPAD(ESP32) WIRELESS"
 				(path "/29cb8219-b10d-47f3-b960-fd5b6212cd29"
-					(reference "R1_TRIGGER")
+					(reference "R1_TRIGGER1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 81.28 73.66 90)
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 62.23 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "397c15c0-15dd-46f6-b5c1-dc377ba2f63f")
-		(property "Reference" "R3"
-			(at 81.026 69.088 90)
+		(uuid "381dffe1-197c-4ed4-9035-1018b5b5b935")
+		(property "Reference" "J1"
+			(at 65.024 53.086 0)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Value" "4k7"
-			(at 81.026 71.628 90)
+		(property "Value" "Conn_01x04_Pin"
+			(at 68.58 54.102 0)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0614_L14.3mm_D5.7mm_P15.24mm_Horizontal"
-			(at 81.28 75.438 90)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 62.23 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4454,7 +4236,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 73.66 0)
+			(at 62.23 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4462,93 +4244,31 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 81.28 73.66 0)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 62.23 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "4"
+			(uuid "ac80a957-7536-433d-ae7f-31488f961989")
 		)
 		(pin "2"
-			(uuid "5332d378-f2a4-4813-b2e7-50605418ba50")
+			(uuid "86c9acf9-7497-4922-9ca8-df5a0c9c2f46")
 		)
 		(pin "1"
-			(uuid "a94a2b34-98bb-4c63-8329-9d980007b34d")
+			(uuid "67e81e34-3b2a-4a34-8ec1-f716f40af72f")
+		)
+		(pin "3"
+			(uuid "90469596-bf2f-413c-9209-406d69f34677")
 		)
 		(instances
-			(project ""
+			(project "HACKPAD_V1"
 				(path "/29cb8219-b10d-47f3-b960-fd5b6212cd29"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 44.45 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3b26b239-bc3d-4ed1-b980-429d44461941")
-		(property "Reference" "DPAD_LEFT"
-			(at 44.45 54.61 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 44.45 55.88 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH-12mm"
-			(at 44.45 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 44.45 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 44.45 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7dd460c8-5f2f-4105-b287-ed95c3682d9e")
-		)
-		(pin "2"
-			(uuid "4d679e20-693d-4946-8d42-20886d46796e")
-		)
-		(instances
-			(project "DIY GAMEPAD(ESP32) WIRELESS"
-				(path "/29cb8219-b10d-47f3-b960-fd5b6212cd29"
-					(reference "DPAD_LEFT")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -4564,7 +4284,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e9704cd-f621-4373-a58a-752f8e456bfc")
-		(property "Reference" "MENU_BUTTON"
+		(property "Reference" "MENU_BUTTON1"
 			(at 91.44 180.34 0)
 			(effects
 				(font
@@ -4616,7 +4336,7 @@
 		(instances
 			(project "HACKPAD_V1"
 				(path "/29cb8219-b10d-47f3-b960-fd5b6212cd29"
-					(reference "MENU_BUTTON")
+					(reference "MENU_BUTTON1")
 					(unit 1)
 				)
 			)
@@ -4647,7 +4367,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0614_L14.3mm_D5.7mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 81.28 126.238 90)
 			(effects
 				(font
@@ -4690,6 +4410,162 @@
 		)
 	)
 	(symbol
+		(lib_name "TP4056_1")
+		(lib_id "HACKPAD_V1_SYM:TP4056")
+		(at 166.37 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "496541d5-86bf-493c-8c22-ce3d84d73ed6")
+		(property "Reference" "TP4056_MODULE1"
+			(at 166.37 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 166.37 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "HACKPAD_V1_FOOTPRINTS:TP4056"
+			(at 166.37 53.594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 166.37 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "OUT-"
+			(uuid "23f07194-b651-4566-bfa4-7c860bf21486")
+		)
+		(pin "IN-"
+			(uuid "a6a402b6-529b-4be1-9ec6-92f328f4354c")
+		)
+		(pin "B+"
+			(uuid "1d2cabdd-8a83-4ecd-a635-63ba701febcd")
+		)
+		(pin "IN+"
+			(uuid "c6775d27-2c98-46e2-9e85-aeac71b9fd9c")
+		)
+		(pin "B-"
+			(uuid "126d69a9-7630-4cac-abb5-462bc23ffab3")
+		)
+		(pin "OUT+"
+			(uuid "1d804090-0c53-40f2-85ac-6f0da4f08029")
+		)
+		(instances
+			(project ""
+				(path "/29cb8219-b10d-47f3-b960-fd5b6212cd29"
+					(reference "TP4056_MODULE1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 130.81 104.14 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "581f8929-260e-46f5-94c9-7b3fd457957c")
+		(property "Reference" "J3"
+			(at 119.38 96.266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x04_Pin"
+			(at 113.792 94.488 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 130.81 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 130.81 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c50b13d2-9426-4c70-9a54-390c597f39e3")
+		)
+		(pin "4"
+			(uuid "e89b36ac-389c-4c0a-9cc6-cdd18df6e94a")
+		)
+		(pin "3"
+			(uuid "24c6a4c4-0857-45c7-81ee-c1ec31035219")
+		)
+		(pin "2"
+			(uuid "452a63db-56f9-4945-b91f-05b867f2b3a0")
+		)
+		(instances
+			(project ""
+				(path "/29cb8219-b10d-47f3-b960-fd5b6212cd29"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 55.88 151.13 90)
 		(unit 1)
@@ -4714,7 +4590,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0614_L14.3mm_D5.7mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 55.88 152.908 90)
 			(effects
 				(font
@@ -4757,227 +4633,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 88.9 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "66b6929a-c889-44f1-9d36-f4d888e6d9b7")
-		(property "Reference" "DPAD_RIGHT"
-			(at 88.9 54.61 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 88.9 55.88 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH-12mm"
-			(at 88.9 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 88.9 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 88.9 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "759bd54b-b878-41ff-a39e-40708af2fb66")
-		)
-		(pin "2"
-			(uuid "c6e57f2a-4512-400a-87b6-8ce1a38c707a")
-		)
-		(instances
-			(project "DIY GAMEPAD(ESP32) WIRELESS"
-				(path "/29cb8219-b10d-47f3-b960-fd5b6212cd29"
-					(reference "DPAD_RIGHT")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "HACKPAD_V1:Doit_esp32_devkitv1")
-		(at 134.62 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "703173ba-5fdb-4021-8956-da5bae25c221")
-		(property "Reference" "Doit_ESP32_DEVKITV1"
-			(at 134.62 52.07 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 135.89 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "HACKPAD_V1:Doit_ESP32_DEVKITV1"
-			(at 134.62 48.006 0)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 135.89 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "98eab840-e0b1-48b1-9e5a-6dc4bf676014")
-		)
-		(pin "2"
-			(uuid "6ac2c8b6-8e82-47cc-a11d-7ae095ae9831")
-		)
-		(pin "5"
-			(uuid "90b18c1a-d606-4ad7-9510-c60e2edb07a8")
-		)
-		(pin "3"
-			(uuid "59aacb8c-df03-4d8f-852f-9501880634df")
-		)
-		(pin "25"
-			(uuid "b8282d01-6f23-45e9-9864-3c4adc3b9995")
-		)
-		(pin "26"
-			(uuid "17de07c0-b13a-4431-ba76-1d9f54f4f97b")
-		)
-		(pin "28"
-			(uuid "3047ba50-76d4-4ce0-8837-f9dc8a50132d")
-		)
-		(pin "24"
-			(uuid "a1c52fb5-4ff3-4416-8b8b-e478c1c67416")
-		)
-		(pin "7"
-			(uuid "0edf730f-c664-4d4b-a976-3705ed98e043")
-		)
-		(pin "19"
-			(uuid "8647d591-2df0-4465-875b-8b61d4ccb2ca")
-		)
-		(pin "14"
-			(uuid "9aadd4c1-ac97-4aa3-bcc0-76b8a99c2eff")
-		)
-		(pin "22"
-			(uuid "bffb4218-4f6e-4e54-a11c-9d690ddb8465")
-		)
-		(pin "27"
-			(uuid "e95279b8-d0c4-48f6-a2d3-929543567ab7")
-		)
-		(pin "23"
-			(uuid "e4d64f06-b8c7-4565-8b05-304dc89c1d0e")
-		)
-		(pin "6"
-			(uuid "cd9e3bfc-0712-4dc7-8129-c281c9b6d2df")
-		)
-		(pin "10"
-			(uuid "8c924cb9-e2b8-46bb-a71c-3a5e7e8ea87a")
-		)
-		(pin "20"
-			(uuid "52e2a95d-41c5-401c-a9eb-928a23d9c5ee")
-		)
-		(pin "16"
-			(uuid "ab705b15-4ce5-4e07-a562-9365d899ed39")
-		)
-		(pin "11"
-			(uuid "7049a32e-6f2d-41b3-bb03-6315d598e7bd")
-		)
-		(pin "21"
-			(uuid "58df0cec-55ce-49c9-bfe7-bab9408c7685")
-		)
-		(pin "30"
-			(uuid "a4a3b764-7fbb-42a4-bcef-556bad330714")
-		)
-		(pin "8"
-			(uuid "e1713dd0-e011-49b2-95b4-36a8456b5b7b")
-		)
-		(pin "12"
-			(uuid "6dd74eee-d1a0-40f8-8bee-0ca900f3e668")
-		)
-		(pin "13"
-			(uuid "504bff92-c79f-4f17-b418-c7bbf6771411")
-		)
-		(pin "9"
-			(uuid "7b4b0ba7-ad25-4423-8f9c-5857dfa70138")
-		)
-		(pin "18"
-			(uuid "bbbe55d3-c97d-479b-a3ba-3488cbe433d8")
-		)
-		(pin "17"
-			(uuid "7aac0e41-5e87-4e7f-ab89-cfca4e3e837a")
-		)
-		(pin "15"
-			(uuid "5506a30a-f9dd-4d77-b9ee-d6560947f2b1")
-		)
-		(pin "29"
-			(uuid "18e0d442-ec86-4e1f-b48e-3d33ac805da1")
-		)
-		(pin "1"
-			(uuid "91908eb1-2cc6-49ec-a988-1608497a9674")
-		)
-		(instances
-			(project ""
-				(path "/29cb8219-b10d-47f3-b960-fd5b6212cd29"
-					(reference "Doit_ESP32_DEVKITV1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 77.47 96.52 90)
 		(unit 1)
@@ -5002,7 +4657,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0614_L14.3mm_D5.7mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 77.47 98.298 90)
 			(effects
 				(font
@@ -5113,32 +4768,35 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 34.29 72.39 0)
+		(at 58.42 63.5 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7ae827de-23d6-4929-8e10-2f880f101fde")
 		(property "Reference" "J2"
-			(at 34.925 64.77 0)
+			(at 50.8 54.864 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Value" "Conn_01x04_Pin"
-			(at 34.925 67.31 0)
+			(at 43.18 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
+				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 34.29 72.39 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 58.42 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5147,7 +4805,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 34.29 72.39 0)
+			(at 58.42 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5156,7 +4814,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 34.29 72.39 0)
+			(at 58.42 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5195,7 +4853,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e45b584-84f3-4b88-a2c7-6e236537b8ad")
-		(property "Reference" "VIEW_BUTTON"
+		(property "Reference" "VIEW_BUTTON1"
 			(at 46.99 180.34 0)
 			(effects
 				(font
@@ -5247,7 +4905,7 @@
 		(instances
 			(project "HACKPAD_V1"
 				(path "/29cb8219-b10d-47f3-b960-fd5b6212cd29"
-					(reference "VIEW_BUTTON")
+					(reference "VIEW_BUTTON1")
 					(unit 1)
 				)
 			)
@@ -5278,7 +4936,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0614_L14.3mm_D5.7mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 100.33 152.908 90)
 			(effects
 				(font
@@ -5321,74 +4979,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 66.04 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "85e1f11f-6ed2-4127-9160-b57637b9d9e0")
-		(property "Reference" "DPAD_UP"
-			(at 66.04 39.37 0)
-			(effects
-				(font
-					(size 1.1176 1.1176)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 66.04 40.64 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH-12mm"
-			(at 66.04 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 66.04 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 66.04 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a01dbb29-165e-490b-a260-edd1fe12d9a7")
-		)
-		(pin "2"
-			(uuid "80972148-9e19-407d-b039-b5061ec7510a")
-		)
-		(instances
-			(project ""
-				(path "/29cb8219-b10d-47f3-b960-fd5b6212cd29"
-					(reference "DPAD_UP")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 100.33 111.76 90)
 		(unit 1)
@@ -5413,7 +5003,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0614_L14.3mm_D5.7mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 100.33 113.538 90)
 			(effects
 				(font
@@ -5465,7 +5055,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f3aeac2-c167-4860-8d4f-a1c80e5420a2")
-		(property "Reference" "A_BUTTON"
+		(property "Reference" "A_BUTTON1"
 			(at 69.85 118.11 0)
 			(effects
 				(font
@@ -5517,7 +5107,7 @@
 		(instances
 			(project "DIY GAMEPAD(ESP32) WIRELESS"
 				(path "/29cb8219-b10d-47f3-b960-fd5b6212cd29"
-					(reference "A_BUTTON")
+					(reference "A_BUTTON1")
 					(unit 1)
 				)
 			)
@@ -5548,7 +5138,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0614_L14.3mm_D5.7mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 55.88 113.538 90)
 			(effects
 				(font
@@ -5667,7 +5257,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7f24dfb-e17c-4f92-8a41-23dfe4b9e435")
-		(property "Reference" "Y_BUTTON"
+		(property "Reference" "Y_BUTTON1"
 			(at 66.04 90.17 0)
 			(effects
 				(font
@@ -5719,39 +5309,39 @@
 		(instances
 			(project "DIY GAMEPAD(ESP32) WIRELESS"
 				(path "/29cb8219-b10d-47f3-b960-fd5b6212cd29"
-					(reference "Y_BUTTON")
+					(reference "Y_BUTTON1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 69.85 73.66 0)
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 137.16 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "bb381223-8a42-46d0-93e2-d359129ef625")
-		(property "Reference" "DPAD_DOWN"
-			(at 69.85 67.31 0)
+		(uuid "c172de92-d0cb-496f-844a-6192712d0585")
+		(property "Reference" "J4"
+			(at 140.97 92.456 0)
 			(effects
 				(font
-					(size 1.1176 1.1176)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 69.85 68.58 0)
+		(property "Value" "Conn_01x04_Pin"
+			(at 141.478 94.488 0)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH-12mm"
-			(at 69.85 68.58 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 137.16 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5760,7 +5350,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 69.85 68.58 0)
+			(at 137.16 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5768,156 +5358,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 69.85 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aa1d02a7-51b0-4c8a-bd1c-d6763bf1cdfb")
-		)
-		(pin "2"
-			(uuid "c8b40312-7719-4b83-88cf-33927e9b840e")
-		)
-		(instances
-			(project "DIY GAMEPAD(ESP32) WIRELESS"
-				(path "/29cb8219-b10d-47f3-b960-fd5b6212cd29"
-					(reference "DPAD_DOWN")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "HACKPAD_V1:TP4056_module")
-		(at 166.37 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bb8276c5-c97c-434d-84a3-d91480c31a54")
-		(property "Reference" "TP4056_MODULE"
-			(at 166.37 55.88 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 166.3803 57.8003 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "HACKPAD_V1:TP4056"
-			(at 166.116 54.102 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 166.3803 57.8003 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 166.3803 57.8003 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "OUT-"
-			(uuid "f5f60b41-5396-424b-b9c1-65597bfb9a9b")
-		)
-		(pin "IN-"
-			(uuid "ffb6843d-6a1d-43b9-98c5-16fee2ba6b6d")
-		)
-		(pin "OUT+"
-			(uuid "1ee9f7cd-3936-4b7d-ad57-2584e0443b63")
-		)
-		(pin "B-"
-			(uuid "9a9b4f1a-0a99-4a3c-a909-12e124c9b9c0")
-		)
-		(pin "IN+"
-			(uuid "9efcebe4-4861-4af2-bf72-846fe4f25fad")
-		)
-		(pin "B+"
-			(uuid "de3c2802-243c-4f82-b9d6-4a61781552ac")
-		)
-		(instances
-			(project ""
-				(path "/29cb8219-b10d-47f3-b960-fd5b6212cd29"
-					(reference "TP4056_MODULE")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x05_Pin")
-		(at 130.81 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c07100ae-bf72-4fe9-bc7d-c420fba83c0b")
-		(property "Reference" "LEFT_JOYSTICK"
-			(at 131.445 93.98 0)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Value" "Conn_01x05_Pin"
-			(at 131.445 96.52 0)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical"
-			(at 130.81 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 130.81 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 130.81 104.14 0)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 137.16 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5926,24 +5368,21 @@
 			)
 		)
 		(pin "3"
-			(uuid "633600bb-65ac-45ad-8729-2bd34317c737")
+			(uuid "f6e4324d-dc0b-460d-9893-7cdba14a7477")
 		)
 		(pin "2"
-			(uuid "ee71804d-cba5-4143-870a-c21a21c8e1d5")
+			(uuid "c37507c0-2997-4566-b074-a859155265ff")
 		)
 		(pin "1"
-			(uuid "afea8f47-fa04-49bc-98b6-aeeda7f9acb8")
-		)
-		(pin "5"
-			(uuid "25feba82-fba2-4c78-be13-8738be0168f2")
+			(uuid "2077f79e-5f5b-4bb9-866a-4f14c74e3c99")
 		)
 		(pin "4"
-			(uuid "e18692b6-034d-4482-8543-7c78a8cec038")
+			(uuid "2dc244d5-459f-4a31-a5ff-1065e40792c2")
 		)
 		(instances
 			(project ""
 				(path "/29cb8219-b10d-47f3-b960-fd5b6212cd29"
-					(reference "LEFT_JOYSTICK")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -5959,7 +5398,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6f298d8-7f43-4a85-8e54-fff41f3760f1")
-		(property "Reference" "X_BUTTON"
+		(property "Reference" "X_BUTTON1"
 			(at 44.45 105.41 0)
 			(effects
 				(font
@@ -6011,7 +5450,159 @@
 		(instances
 			(project "DIY GAMEPAD(ESP32) WIRELESS"
 				(path "/29cb8219-b10d-47f3-b960-fd5b6212cd29"
-					(reference "X_BUTTON")
+					(reference "X_BUTTON1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HACKPAD_V1_SYM:ESP32_DEVKITV1")
+		(at 134.62 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cce79c00-afef-46ae-a6c4-606689068ef8")
+		(property "Reference" "ESP32_DEVKITV1"
+			(at 134.62 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 134.62 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "HACKPAD_V1_FOOTPRINTS:ESP32_DEVKITV1"
+			(at 135.89 50.038 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "21"
+			(uuid "a566f251-18e6-468d-972e-63538f04addc")
+		)
+		(pin "19"
+			(uuid "db50abfe-85b1-4bc3-ae27-9db158e55be8")
+		)
+		(pin "17"
+			(uuid "b547bfa1-13cd-4506-bf52-b351a0075e7e")
+		)
+		(pin "16"
+			(uuid "6b33b5df-6a67-4b84-befb-a919f6bf8dac")
+		)
+		(pin "3"
+			(uuid "64d3ee34-8e6c-4b73-abbe-9744c6821a9d")
+		)
+		(pin "28"
+			(uuid "71cbeea3-ecfc-4fc2-b943-b03f4216ac5e")
+		)
+		(pin "22"
+			(uuid "df5cfd2b-f9b3-4f78-80ce-d6b56de5efe9")
+		)
+		(pin "29"
+			(uuid "590ce222-f193-4634-be54-db52820ed0f9")
+		)
+		(pin "26"
+			(uuid "d951ded6-c303-4fe0-9d01-8944232a1c5e")
+		)
+		(pin "6"
+			(uuid "9362ea9e-31dc-4e56-b6f7-16dcb0a70e7d")
+		)
+		(pin "4"
+			(uuid "d5ff350e-6d18-4c78-b688-96fb8358d017")
+		)
+		(pin "27"
+			(uuid "d154fddb-8737-4cb6-a244-2d2c6b464270")
+		)
+		(pin "9"
+			(uuid "326f4bbf-dc28-4518-89ab-18be242a1ec6")
+		)
+		(pin "5"
+			(uuid "569b984e-1026-4472-b2d7-94401c893cc7")
+		)
+		(pin "10"
+			(uuid "cf026746-4a84-4044-919b-be4ee6e53ba3")
+		)
+		(pin "18"
+			(uuid "4804689d-9a54-40a2-bb2b-944205ff0985")
+		)
+		(pin "23"
+			(uuid "a30c930f-23ee-48c2-8615-bdddeae8137d")
+		)
+		(pin "11"
+			(uuid "08f4b180-6370-4ff8-86b4-505fcfb744d2")
+		)
+		(pin "2"
+			(uuid "a05891d5-887f-402b-b7a3-56c0a5ebe711")
+		)
+		(pin "8"
+			(uuid "6d04e703-8cf7-4073-99e7-b851149e2b05")
+		)
+		(pin "20"
+			(uuid "9cfda54c-f90b-4c9a-b8f1-02fed1f4dbfa")
+		)
+		(pin "13"
+			(uuid "0c1e3b92-e7d0-4dc2-b63b-3cc15b7255df")
+		)
+		(pin "12"
+			(uuid "04ad9f16-1e41-4217-b622-e6344173d28d")
+		)
+		(pin "1"
+			(uuid "a205fed9-432e-44e3-b7a7-89a7b75703f3")
+		)
+		(pin "14"
+			(uuid "57e3b75f-4481-40e3-98fd-5f4c4f0559ba")
+		)
+		(pin "15"
+			(uuid "f60ddd8b-6c6b-488a-8239-d9f838829371")
+		)
+		(pin "25"
+			(uuid "bf8f99f8-bbb9-4a16-91e0-d730e6fba160")
+		)
+		(pin "30"
+			(uuid "a74a3264-9a2f-4754-9432-1433c30eecef")
+		)
+		(pin "24"
+			(uuid "17fd796f-6651-4f3c-9257-2fa4be7188bc")
+		)
+		(pin "7"
+			(uuid "4a682436-5e57-418a-8487-23120311eb66")
+		)
+		(instances
+			(project ""
+				(path "/29cb8219-b10d-47f3-b960-fd5b6212cd29"
+					(reference "ESP32_DEVKITV1")
 					(unit 1)
 				)
 			)
@@ -6042,7 +5633,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0614_L14.3mm_D5.7mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 55.88 164.338 90)
 			(effects
 				(font
@@ -6085,73 +5676,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 100.33 60.96 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d3f029cb-b481-4587-970b-2bc8ca4e5e1f")
-		(property "Reference" "R2"
-			(at 100.076 56.388 90)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "4k7"
-			(at 100.076 58.928 90)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0614_L14.3mm_D5.7mm_P15.24mm_Horizontal"
-			(at 100.33 62.738 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 100.33 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 100.33 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b5642005-55e7-4814-b638-8572d34adb4e")
-		)
-		(pin "1"
-			(uuid "67e393c6-8f81-4f1c-b6d4-f6d9785f5a6e")
-		)
-		(instances
-			(project "DIY GAMEPAD(ESP32) WIRELESS"
-				(path "/29cb8219-b10d-47f3-b960-fd5b6212cd29"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 44.45 151.13 0)
 		(unit 1)
@@ -6161,7 +5685,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5387ee3-3898-4296-af5e-67151dc2aab0")
-		(property "Reference" "L1_TRIGGER"
+		(property "Reference" "L1_TRIGGER1"
 			(at 44.45 144.78 0)
 			(effects
 				(font
@@ -6213,74 +5737,7 @@
 		(instances
 			(project "DIY GAMEPAD(ESP32) WIRELESS"
 				(path "/29cb8219-b10d-47f3-b960-fd5b6212cd29"
-					(reference "L1_TRIGGER")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 77.47 45.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d75d96a7-be91-4ab5-912d-cd51fe3f5f19")
-		(property "Reference" "R1"
-			(at 77.216 41.148 90)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "4k7"
-			(at 77.216 43.688 90)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0614_L14.3mm_D5.7mm_P15.24mm_Horizontal"
-			(at 77.47 47.498 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 77.47 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 77.47 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2cbcfe77-9200-41f6-8eb7-22a291f6f1e8")
-		)
-		(pin "1"
-			(uuid "43b6160e-85dd-40f7-841a-22af0396c60d")
-		)
-		(instances
-			(project "DIY GAMEPAD(ESP32) WIRELESS"
-				(path "/29cb8219-b10d-47f3-b960-fd5b6212cd29"
-					(reference "R1")
+					(reference "L1_TRIGGER1")
 					(unit 1)
 				)
 			)
@@ -6311,7 +5768,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0614_L14.3mm_D5.7mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 102.87 188.468 90)
 			(effects
 				(font
@@ -6362,7 +5819,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "de34e3a4-ca94-41fe-a185-0907d2bd929f")
-		(property "Reference" "RIGHT_JOYSTICK"
+		(property "Reference" "RIGHT_JOYSTICK1"
 			(at 163.576 93.98 0)
 			(effects
 				(font
@@ -6423,74 +5880,7 @@
 		(instances
 			(project "DIY GAMEPAD(ESP32) WIRELESS"
 				(path "/29cb8219-b10d-47f3-b960-fd5b6212cd29"
-					(reference "RIGHT_JOYSTICK")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 55.88 60.96 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f1f2a6aa-ea69-4d33-aa29-86e55979318a")
-		(property "Reference" "R4"
-			(at 55.626 56.388 90)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "4k7"
-			(at 55.626 58.928 90)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0614_L14.3mm_D5.7mm_P15.24mm_Horizontal"
-			(at 55.88 62.738 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 55.88 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 55.88 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "64537aa4-96bf-48a0-8624-3fa3da7ab8ed")
-		)
-		(pin "1"
-			(uuid "9c244959-dba0-4e08-9673-2a50b83290df")
-		)
-		(instances
-			(project "DIY GAMEPAD(ESP32) WIRELESS"
-				(path "/29cb8219-b10d-47f3-b960-fd5b6212cd29"
-					(reference "R4")
+					(reference "RIGHT_JOYSTICK1")
 					(unit 1)
 				)
 			)

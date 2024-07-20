@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "HACKPAD_V1_FOOTPRINTS")(type "KiCad")(uri "${KIPRJMOD}/HACKPAD_V1_FOOTPRINTS.pretty")(options "")(descr ""))
+)
