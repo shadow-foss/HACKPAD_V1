@@ -4500,7 +4500,7 @@
 		(dnp no)
 		(uuid "581f8929-260e-46f5-94c9-7b3fd457957c")
 		(property "Reference" "J3"
-			(at 119.38 96.266 0)
+			(at 124.714 96.266 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4509,7 +4509,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Pin"
-			(at 113.792 94.488 0)
+			(at 119.888 92.202 0)
 			(effects
 				(font
 					(size 1.27 1.27)
